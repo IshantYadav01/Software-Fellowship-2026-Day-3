@@ -1,7 +1,7 @@
 import requests
 
 # Paste your API key here directly (for testing only — not safe for production)
-API_KEY = "your-api-key-here"  # 🔐 Replace this with your Gemini API key
+API_KEY = "AIzaSyAn2_HPeG4Ex37y-E2IJcFILL8YooETnrs"  # 🔐 Replace this with your Gemini API key
 
 def ask_gemini(question):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
